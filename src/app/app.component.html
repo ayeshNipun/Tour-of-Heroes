@@ -2,8 +2,11 @@
 	{{ title }}!
 </h1>
 
-<app-heroes></app-heroes>
-
-<app-messages></app-messages>
+<nav>
+	<a routerLink="/dashboard">Dashboard</a>
+	<a routerLink="/heroes">Heroes</a>
+</nav>
 
 <router-outlet></router-outlet>
+
+<app-messages></app-messages>
